@@ -1,0 +1,298 @@
+/*body {
+max-width: 100%;
+border:2px solid #159238;
+margin: 1 auto }
+
+header {
+width: 100%;
+background: #006500;
+float: left;
+margin: 1% 0 .5% 0;
+border-radius: 20px 20px 0 0;
+box-shadow: 5px 5px 10px #0e0e0e
+}
+
+#left-h {
+width: 60%;
+float: left
+}
+
+
+
+/* position right division and define width  */
+/*
+#right-h {
+float: left;
+width: 40%;
+float: left;
+}
+
+
+
+/* set size for nav element */
+/*
+nav {
+width: 98%;
+float: left;
+padding: .5% 1%;
+border-radius: 10px;
+box-shadow: 8px 8px 20px #0e0e0e inset
+
+}
+
+div.main {
+width: 100%;
+float: left
+}
+
+div.left {
+width: 25%;
+padding: 0 0 0 5%;
+background-color:#51f5e6;
+float: left;
+}
+
+div.content {
+width: 50%;
+padding: 0 5%;
+background: #9c9498;
+float: left;
+}
+
+div.right {
+width: 25%;
+padding: 0 5% 0 0;
+background-color:#51f5e6;
+float: left;
+}
+*/
+
+/* Remove all default padding and margins */
+
+* {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+/* set margin - default fore and background colors  and font properties*/
+body {
+max-width: 1400px;
+height:100%;
+color: #0e0e0e;
+background: #9c9498;
+font-family:arial, verdana, serif;
+font-weight: normal;
+font-style: normal
+}
+
+/* set width of header element for site heading and slogan */
+
+header {
+width: 100%;
+background: #3b78b4;
+float: left;
+margin: 1% 0 .5% 0;
+border-radius: 20px 20px 0 0;
+box-shadow: 5px 5px 10px #0e0e0e
+}
+
+#left {
+width: 30%;
+float: left
+}
+
+
+#center {
+width: 45%;
+float: left
+}
+/* position right division and define width  */
+
+#right {
+float: left;
+width: 25%;
+float: left;
+}
+
+
+
+/* set size for nav element */
+
+nav {
+width: 100%;
+float: left;
+background: #250615;
+color:#250615;
+padding: .5% 1%;
+border-radius: 10px;
+box-shadow: 8px 8px 20px #0e0e0e inset
+
+}
+
+
+
+
+/* set width  of container for body section */
+
+#main {
+width:100%;
+background: #ffffff;
+float: left;
+margin: .25% 0 1% 0;
+/*box-shadow: 5px 5px 10px #0e0e0e*/
+}
+
+#main-left {
+float: left;
+width: 25%;
+bottom:auto;
+padding: 1% 1% 0 1%;
+padding-bottom:auto;
+background-color:#f4f4f5;
+/*background-color:#51f5e6;*/
+}
+#main-left h3{
+	background-color:#51f5e6;
+	font-family: Arial;
+	color:#250615;
+	text-align:center;
+}
+#sl1{
+	padding: 1% 2% 0 7%;
+	background-color:#cfcfff;
+}
+#sl2{padding: 1% 2% 0 7%;}
+#sl3{padding: 1% 2% 0 7%;}
+
+#main-center {
+float: left;
+width: 50%;
+bottom:auto;
+padding: 1% 2%;
+background: #e6e3e5;
+padding-bottom:auto;
+}
+#main-center img {
+float: center;
+margin-top:20px;
+}
+#main-center h3{
+	background-color:#51f5e6;
+	font-family: Arial;
+	color:#250615;
+	text-align:center;
+}
+#sc1{padding: 1% 5%;}
+
+#main-right {
+float: left;
+width: 25%;
+bottom:auto;
+padding: 1% 1% 0 1%;
+/*background-image: url("assets/img/help.jpg");*/
+background-color:#f4f4f5;
+/*background-color:#51f5e6;*/
+padding-bottom:auto;
+}
+
+#main-right h3{
+	background-color:#51f5e6;
+	font-family: Arial;
+	color:#250615;
+	text-align:center;
+}
+
+#sr1 {padding: 1% 1% 0 8%;}
+#sr2 {padding: 1% 1% 0 8%;}
+#sr3 {padding: 1% 1% 0 8%;}
+
+/* set font properties for h1 tag in left division */
+#left img{
+height:150px;
+max-width: 150px;
+float: left;
+color: #efefef;
+text-shadow: 4px 4px 5px #0e0e0e;
+padding: 3% 0% 3% 3%;
+}
+
+#center h1{
+font-size: 45px;
+font-weight: bold;
+text-align: center;
+color: #efefef;
+text-shadow: 12px 12px 5px #f545d7;
+padding: 5% 5%;
+}
+
+/* Liquify images 
+img {
+max-width: 100%
+height:200px;
+}*/
+
+/* define font properties for paragraph slogan within the right division */
+
+#right p{
+font-size: 22px;
+text-align: center;
+font-weight: bold;
+color: #efefef;
+text-shadow: 2px 2px 4px #0e0e0e;
+padding: 15% 2%;
+}
+
+/* links are set in a paragraph to allow postioning of right left or center */
+nav p {
+font-size: 16px;
+font-weight: bold;
+float: left;
+text-shadow: 2px 2px 4px #0e0e0e;
+padding: .5%  2%
+}
+
+/* set color for links and remove underline (text-decoration) */
+nav a {
+color: #efefef;
+text-decoration: none
+}
+
+/* set hover or roll over color of links */
+nav a:hover {
+color: #60BF60;
+}
+
+/* set width of  footer element - add color */
+footer {
+position:auto;
+width: 100%;
+background: #0c0505;
+float: left;
+margin: 0 0 1% 0;
+box-shadow: 5px 5px 10px #0e0e0e;
+border-radius: 0 0 20px 20px;
+}
+
+/* set font properties of address tag within footer */
+footer p {
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+color: #efefef;
+text-shadow: 2px 2px 4px #0e0e0e;
+padding: .5% 0
+}
+
+p.clear {
+clear: both
+}
+/*==========================================
+   FOOTER STYLES
+    =====================================================*/
+#footser-end {
+	font-weight: bold;
+	font-size: 16px;
+	color: #efefef;
+   text-align:right;
+   padding:10px;
+}
